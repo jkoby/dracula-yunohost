@@ -1,20 +1,31 @@
-# Dracula for [Foobar](https://foobar.com)
+# Dracula for [YunoHost](https://yunohost.org)
 
-> A dark theme for [Foobar](https://foobar.com).
+> A dark theme for [YunoHost](https://yunohost.org).
 
 ![Screenshot](./screenshot.png)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/foobar).
+1. Copy the dracula folder from this repository into /usr/share/ssoway/portal/assets/themes/
+2. Edit /etc/ssowat/conf.json.persistent and set the theme to dracula:
+
+```
+{
+    "theme": "dracula"
+}
+
+```
+3. Changes take effect immediately, but clients may need to force-reload to see them. (Ctrl-Shift-R in the browser)
+
+All instructions can be found at [draculatheme.com/yunohost](https://draculatheme.com/yunohost).
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/yunohost/graphs/contributors).
 
-| [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) |
+| [![Jay Koby](https://github.com/jkoby.png?size=100)](https://github.com/jkoby) |
 | ---------------------------------------------------------------------------------------- |
-| [Zeno Rocha](https://github.com/zenorocha)                                               |
+| [Jay Koby](https://github.com/jkoby)                                               |
 
 ## Community
 
