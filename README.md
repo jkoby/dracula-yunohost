@@ -6,8 +6,8 @@
 
 ## Install
 
-1. Copy the dracula folder from this repository into /usr/share/ssoway/portal/assets/themes/
-2. Edit /etc/ssowat/conf.json.persistent and set the theme to dracula:
+1. Copy the dracula folder from this repository into `/usr/share/ssowat/portal/assets/themes/`
+2. Edit `/etc/ssowat/conf.json.persistent` and set the `theme` to `dracula`:
 
 ```
 {
