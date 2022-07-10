@@ -1,10 +1,10 @@
-### [Foobar](https://foobar.com)
+### [YunoHost](https://yunohost.org)
 
 #### Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-    git clone https://github.com/dracula/foobar.git
+    git clone https://github.com/dracula/yunohost.git
 
 #### Install manually
 
@@ -12,6 +12,14 @@ Download using the [GitHub .zip download](https://github.com/dracula/foobar/arch
 
 #### Activating theme
 
-1. Do this
-2. Then that
-3. Boom! It's working
+1. Copy the dracula folder from this repository into /usr/share/ssoway/portal/assets/themes/
+2. Edit /etc/ssowat/conf.json.persistent and set the theme to dracula:
+
+```
+{
+    "theme": "dracula"
+}
+
+```
+3. Changes take effect immediately, but clients may need to force-reload to see them. (Ctrl-Shift-R in the browser)
+
