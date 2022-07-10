@@ -1,0 +1,299 @@
+/*
+===============================================================================
+ This file contain extra CSS rules to customize the YunoHost user portal and
+ can be used to customize app tiles, buttons, etc...
+===============================================================================
+*/
+
+/* Global */
+body {
+    background: #282a36!important;
+}
+
+.cwhite {
+ color: #f8f8f2;
+}
+
+.messages { color: #000; 
+border-radius: 4px;}
+.messages.danger { background: #ff5555; }
+.messages.warning { background: #ffb86c; }
+.messages.success { background: #50fa7b; }
+.messages.info { background: #8be9fd; }
+
+/* Login icons */
+.login-form label:before {
+background: #44475a;
+color: #bd93f9;
+}
+
+/* Login prompts */
+.login-form .form-text {
+ background: #44475a;
+ color: #f8f8f2;
+}
+
+
+
+/* User */
+
+.user-username, .user-fullname {
+	color: #f8f8f2;
+}
+
+.user-mail {
+color: #6272a4;
+}
+
+.user-container {
+color: #f8f8f2;
+}
+
+/* User avatar */
+
+.user-container:before {
+background: #6272a4;
+color: #f8f8f2;
+}
+
+/* Log out button */
+
+.user-menu a {
+color: #6272a4;
+}
+
+.user-menu a:hover, .user-menu a:focus {
+color: #f8f8f2;
+}
+
+
+/* Forms */
+
+.form-text {
+  background: #44475a;
+  color: #f8f8f2;
+}
+
+.form-text:focus {
+  background-color: #6272a4;
+}
+
+label { 
+  color: #ff79c6;
+}
+
+.form-test:-moz-placeholder{color:#bd93f9;}
+.form-text::-moz-placeholder{color:#bd93f9;}
+.form-text:-ms-input-placeholder{color:#bd93f9;}
+.form-text::-webkit-input-placeholder{color:#bd93f9;}
+
+
+
+.link-btn:hover, .link-btn.focus {
+  background: #44475a;
+}
+
+
+/* Buttons */
+
+/* Grey */
+.btn {
+        background: #44475a;
+	color: #f8f8f2;
+	border-radius: 4px;
+}
+.btn:hover, .btn:focus {background: #6272a4;}
+
+/* Red */
+.important-btn { background: #ff5555;}
+  .important-btn:hover,
+  .important-btn:focus {background: #ff79c6;}
+
+/* Green (with dark text) */
+.validate-btn { background: #50fa7b; color:#000;}
+  .validate-btn:hover,
+  .validate-btn:focus {background: #2ecc71; color:#000;}
+
+/* Orange/Yellow */
+.warning-btn { background: #ffb86c;}
+  .warning-btn:hover,
+  .warning-btn:focus {background: #f1fa8c;}
+
+/* Blue (text inverts only on focus) */
+.classic-btn { background: #6272a4;}
+  .classic-btn:hover,
+  .classic-btn:focus {background: #8be9fd;color:#000;}
+
+/* Transparent */
+.link-btn { background: none;}
+  .link-btn:hover,
+  .link-btn:focus {background: #44475a;}
+
+/* App tiles */
+
+.listing-apps a {
+	background: #6272a4;
+	color: #f8f8f2;
+}
+
+.bluebg {
+  color: #f8f8f2!important;
+    background: #6272A4!important;
+}
+.bluebg:hover:after,
+.bluebg:focus:after,
+.bluebg:hover:before,
+.bluebg:focus:before {
+    background: #16527A!important;
+}
+
+.purplebg {
+  color: #f8f8f2!important;
+    background: #BD93F9!important;
+}
+.purplebg:hover:after,
+.purplebg:focus:after,
+.purplebg:hover:before,
+.purplebg:focus:before {
+    background: #532C64!important;
+}
+
+.redbg {
+  color: #f8f8f2!important;
+    background: #FF5555!important;
+}
+.redbg:hover:after,
+.redbg:focus:after,
+.redbg:hover:before,
+.redbg:focus:before {
+    background: #921E12!important;
+}
+
+.orangebg {
+    background: #FFB86C!important;
+  color: #44475a!important;
+}
+.orangebg:hover:after,
+.orangebg:focus:after,
+.orangebg:hover:before,
+.orangebg:focus:before {
+    background: #7F5006!important;
+}
+
+.greenbg {
+    background: #50FA7B!important;
+  color: #44475a!important;
+}
+.greenbg:hover:after,
+.greenbg:focus:after,
+.greenbg:hover:before,
+.greenbg:focus:before {
+    background: #176437!important;
+}
+
+.darkbluebg {
+    background: #34495E!important;
+      color: #f8f8f2!important;
+}
+.darkbluebg:hover:after,
+.darkbluebg:focus:after,
+.darkbluebg:hover:before,
+.darkbluebg:focus:before {
+    background: #07090C!important;
+}
+
+.lightbluebg {
+    background: #8BE9FD!important;
+  color: #44475a!important;
+}
+.lightbluebg:hover:after,
+.lightbluebg:focus:after,
+.lightbluebg:hover:before,
+.lightbluebg:focus:before {
+    background: #2B5394!important;
+}
+
+.yellowbg {
+    background: #F1FA8C!important;
+  color: #44475a!important;
+}
+.yellowbg:hover:after,
+.yellowbg:focus:after,
+.yellowbg:hover:before,
+.yellowbg:focus:before {
+    background: #796307!important;
+}
+
+
+.lightpinkbg {
+    background: #FF79C6!important;
+  color: #44475a!important;
+}
+.lightpinkbg:hover:after,
+.lightpinkbg:focus:after,
+.lightpinkbg:hover:before,
+.lightpinkbg:focus:before {
+    background: #DA0C31!important;
+}
+
+/* Following colors are not used yet */
+.pinkbg {
+    background: #D66D92!important;
+}
+.pinkbg:hover:after,
+.pinkbg:focus:after,
+.pinkbg:hover:before,
+.pinkbg:focus:before {
+    background: #992B52!important;
+}
+
+.turquoisebg {
+    background: #1ABC9C!important;
+}
+.turquoisebg:hover:after,
+.turquoisebg:focus:after,
+.turquoisebg:hover:before,
+.turquoisebg:focus:before {
+    background: #0B4C3F!important;
+}
+.lightyellow {
+    background: #FFC973!important;
+}
+.lightyellow:hover:after,
+.lightyellow:focus:after,
+.lightyellow:hover:before,
+.lightyellow:focus:before {
+    background: #F39500!important;
+}
+.lightgreen {
+    background: #B5F36D!important;
+}
+.lightgreen:hover:after,
+.lightgreen:focus:after,
+.lightgreen:hover:before,
+.lightgreen:focus:before {
+    background: #77CF11!important;
+}
+.purpledarkbg {
+    background: #8E44AD!important;
+}
+.purpledarkbg:hover:after,
+.purpledarkbg:focus:after,
+.purpledarkbg:hover:before,
+.purpledarkbg:focus:before {
+    background: #432051!important;
+}
+
+/* Footer */
+.footer nav {
+border-top: #6272a4;
+}
+
+.footer a, .footer a:before {
+color: #6272a4;
+}
+
+.footer a:hover, .footer a:active {
+color: #f8f8f2;
+}
+
